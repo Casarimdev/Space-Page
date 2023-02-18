@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.container-primary2{
+    background-image: url("../human/imagens2/011.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    
+}
+.text-primari{
+        width: 70vw;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        
+    
+    .h1-primari{
+        font-size: 120px;
+    }
+    .p-primari{
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .arrow{
+        height: 80px;
+        width: 110px;
+    }
+}
+.cont-middleh{
+    min-width: 50vw;
+    min-height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .middleh{
+        font-size: 20px;
+        text-align: center;
+    }
+    .spanmd:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        font-size: 21px;
+        cursor: pointer;
+    }
+    
+}
+.third1-container{
+    background-image: url("../human/imagens2/02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    .conteudo{
+        margin-left: 55%;
+        padding-top: 18%;
+    }
+}
+.four1-container{
+    background-image: url("../human/imagens2/03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 94vh;
+    .conteudo1{ 
+        margin-left: 5%;
+        padding-top: 20%;
+    }
+}
+.five1-container{
+    background-image: url("../human/imagens2/04.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 94vh;
+    .conteudo2{
+        margin-left: 55%;
+        padding-top: 18%;
+    }
+}
+.six-container{
+    background-image: url("../human/imagens2/05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 94vh;
+    .conteudo1{
+        margin-left: 5%;
+        padding-top: 20%;
+    }
+}

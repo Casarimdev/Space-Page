@@ -1,0 +1,149 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    // overflow-x: hidden;
+    box-sizing: border-box;
+}
+.container-primary1{
+    background-image: url("../falcon9/imagens1/01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: -1px;
+}
+.middle
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+    
+
+    .h1-middle{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 90px;
+    }
+    .p-middle{
+        font-size: 20px;
+    }
+
+    .middle1{
+        width: 100vw;
+        height: 30vh;
+        
+    }
+
+    .numbers{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 108px;
+    text-align: center;
+    }
+
+    .textnum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    }
+
+    .text-middle{
+        font-size: 90px;
+        text-align: center;
+        
+    }
+
+    .text-middle1{
+        font-size: 20px;
+        
+    }
+
+    .container-secondary2{
+        background-image: url("../falcon9/imagens1/02.jpg");
+        height: 90vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;
+        display: flex;
+        align-items: center;
+
+        .falcon9Desc{
+            opacity: 1;
+            font-size: 22px;
+            width: 640px;
+            line-height: 50px;
+            margin-left: 15%;
+        }
+    }
+    
+    .container-third{
+        height: 90vh;
+        width: 100vw;
+    }
+
+   .four-cont{
+    background-image: url("../falcon9/imagens1/08.jpg");
+        height: 90vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;
+
+        .fourover{
+            width: 500px;
+        margin-left: 13%;
+        padding-top: 15%;
+        }
+
+        .p-four1{
+            display: flex;
+            justify-content: space-between;
+        }
+   }
+   
+   .carrossel01{
+    background-image: url("../falcon9/imagens1/03.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 80vh;
+   }
+   .carrossel02{
+    background-image: url("../falcon9/imagens1/04.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 80vh;
+   }
+   .carrossel03{
+    background-image: url("../falcon9/imagens1/05.jpg");
+    background-size: cover;
+    height: 80vh;
+   }
+   .carrossel04{
+    background-image: url("../falcon9/imagens1/06.jpg");
+    background-size: cover;
+    height: 80vh;
+   }
+   .carrossel05{
+    background-image: url("../falcon9/imagens1/07.jpg");
+    background-size: cover;
+    height: 80vh;
+   }
+   
+   #overViewPosition{
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+   }
+
+
+   .carrousel-baixo{
+    height: 98vh;
+   }

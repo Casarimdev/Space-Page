@@ -1,0 +1,196 @@
+body {
+  overflow-x: hidden;
+}
+
+.container-coco {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.imglogo {
+  background-color: rgba(0, 0, 0, 0);
+  width: 240px;
+}
+
+.navbar {
+  background-color: rgba(202, 58, 58, 0);
+  color: white;
+}
+
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+.container-primary {
+  background-image: url("../home/imagens/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.text {
+  margin-top: 200px;
+  font-weight: medium;
+}
+
+.arrow {
+  width: 90px;
+}
+
+.arrow1 {
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid white;
+  width: 157px;
+  height: 60px;
+}
+
+.container-secondary {
+  background-image: url("../home/imagens/03.jpg");
+  height: 90vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text2 {
+  margin-top: 200px;
+}
+
+.container-terc {
+  background-image: url("../home/imagens/02.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.text3 {
+  padding-top: 300px;
+}
+
+.container-four {
+  background-image: url("../home/imagens/04.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.text4 {
+  padding-top: 300px;
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+}
+
+.p-footer {
+  color: darkgrey;
+}
+
+.a-footer {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarextra {
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+}
+
+.navbarextra1 {
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .navbarextra {
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+  }
+  .navbarextra1 {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .pages {
+    display: none;
+  }
+}
+@media (max-width: 377px) {
+  .imglogo {
+    width: 180px;
+  }
+  .navbarextra {
+    width: 70px;
+  }
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.container-primary1 {
+  background-image: url("../falcon9/imagens1/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.middle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h1-middle {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 90px;
+}
+
+.p-middle {
+  font-size: 20px;
+}
+
+.container-secondary2 {
+  background-image: url("../falcon9/imagens1/02.jpg");
+  height: 90vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css%5B.map */
